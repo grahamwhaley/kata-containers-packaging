@@ -2,6 +2,7 @@
 
 set -x
 
+#KERNEL_PATH="$(pwd)/../kernel/kata-linux-4.14.67-22"
 KERNEL_PATH="$(pwd)/../kernel/kata-linux-4.19.10-22"
 CMDPATH="./scripts/kconfig/merge_config.sh"
 OUTPUT="$(pwd)/output/.config"
